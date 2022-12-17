@@ -5,11 +5,7 @@
     <v-main>
       <v-card>
         <v-layout>
-          <v-navigation-drawer
-            image="https://cdn.vuetifyjs.com/images/backgrounds/bg-2.jpg"
-            permanent
-            theme="dark"
-          >
+          <v-navigation-drawer theme="dark">
             <v-list nav>
               <v-list-item
                 prepend-icon="mdi-email"
@@ -26,6 +22,17 @@
                 title="Clock-in"
                 value="clockin"
               ></v-list-item>
+
+              <v-list-item title="ArmSwing" value="armswing"></v-list-item>
+              <v-list-item title="LegSwing" value="legswing"></v-list-item>
+              <v-list-item title="BodySwing" value="bodyswing"></v-list-item>
+              <v-list-item title="TwistSwing" value="TwistSwing"></v-list-item>
+              <v-list-item title="WhipSwing" value="WhipSwing"></v-list-item>
+              <v-list-item title=""></v-list-item>
+              <v-list-item title=""></v-list-item>
+              <v-list-item title=""></v-list-item>
+              <v-list-item title=""></v-list-item>
+              <v-list-item title=""></v-list-item>
             </v-list>
           </v-navigation-drawer>
           <v-main style="height: 250px"></v-main>
