@@ -3,6 +3,9 @@
   <v-app>
     <Header />
     <v-main>
+      <v-badge>
+        <v-icon icon="mdi-vuetify" size="x-large"></v-icon>
+      </v-badge>
       <v-container class="px-0" fluid>
         <v-switch
           v-model="switch1"
